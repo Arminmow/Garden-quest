@@ -1,0 +1,9 @@
+.main {
+    min-inline-size: 100vw;
+    min-block-size: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    overflow: hidden;
+}
