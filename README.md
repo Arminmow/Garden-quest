@@ -1,27 +1,16 @@
-# GardenQuest
+# Garden Quest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+**Garden Quest** is a fun and interactive gardening adventure game where players can plant, grow, and harvest various plants. As you progress, you unlock new tools and expand your garden.
 
-## Development server
+## Tools Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Phaser 3:** A powerful 2D game framework for building engaging game mechanics and interactions.
+- **Angular 17:** A modern front-end framework used for building the application's user interface and handling game logic.
+- **TypeScript:** Adds type safety and modern JavaScript features to the project.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Explore and expand your garden.
+- Plant, grow, and harvest different types of plants.
+- Unlock and use various gardening tools.
+- Dynamic game mechanics and interactive gameplay.
