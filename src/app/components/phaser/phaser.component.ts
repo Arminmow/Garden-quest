@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import Phaser from 'phaser';
+import { GameScene } from '../../scenes/game/gameScene';
 
 @Component({
   selector: 'app-phaser',
@@ -24,6 +25,7 @@ export class PhaserComponent implements OnInit, AfterViewInit {
         width: window.innerWidth,
         height: window.innerHeight,
         canvas: this.gameCanvas,
+        scene: GameScene
       };
 
       this.game = new Phaser.Game(config);
